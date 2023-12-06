@@ -10,7 +10,7 @@ const EmployeeForm = () => {
   const createEmployee = async (data) => {
 
     const savedUserResponse = await fetch(
-      `http://localhost:5000/api/v1/createUser`,
+      `https://basic-mern-backend.vercel.app/api/v1/createUser`,
       {
         method: "POST",
         headers: {
