@@ -8,7 +8,7 @@ const HomePage = () => {
   const getAllData = async () => {
     try {
       const getPeople = await fetch(
-        `http://localhost:5000/api/v1/getallUsers`,
+        `https://basic-mern-backend.vercel.app/api/v1/getallUsers`,
         {
           method: "GET",
           headers: {
